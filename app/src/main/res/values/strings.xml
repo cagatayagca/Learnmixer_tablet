@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Learnmixer_tablet</string>
+
+
+
+    <string name="welcome">WELCOME TO LEARNMIXER</string>
+    <string name="math">MATHEMATICS</string>
+    <string name="history">HISTORY</string>
+    <string name="english">ENGLISH</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_collection_">Collection_Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_math_">Math_Activity</string>
+</resources>
