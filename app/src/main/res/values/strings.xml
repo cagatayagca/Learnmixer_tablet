@@ -12,4 +12,5 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_math_">Math_Activity</string>
+    <string name="math_content">THIS AREA FOR CONTEXT</string>
 </resources>
