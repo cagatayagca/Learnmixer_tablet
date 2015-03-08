@@ -1,17 +1,30 @@
 package com.example.acar.learnmixer_tablet;
 
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 
 public class Collection_Activity extends ActionBarActivity {
+
+
+    ImageView imageview;
+    Drawable drawable;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collection_);
+
+
+        imageview=(ImageView) findViewById(R.id.imageView);
+        drawable =  getResources().getDrawable(R.drawable.greeks);
+
+        imageview.setImageDrawable(drawable);
     }
 
 

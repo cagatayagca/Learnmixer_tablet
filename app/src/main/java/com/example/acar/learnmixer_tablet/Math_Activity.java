@@ -13,7 +13,7 @@ import android.widget.VideoView;
 
 public class Math_Activity extends ActionBarActivity {
 
-    
+
     Button start,pause;
 
     @Override
